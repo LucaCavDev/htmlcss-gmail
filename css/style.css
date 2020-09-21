@@ -1,0 +1,92 @@
+/*regole generali*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../img/wood.jfif");
+}
+
+/*contenitore blocco di pagina*/
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*margini delle sezioni*/
+header, section, footer {
+  margin: 10px;
+}
+
+/*elementi nell'header*/
+#busta {
+  height: 80px;
+  vertical-align: middle;
+
+  }
+
+#testo-busta {
+  color: white;
+  font-size: 25px;
+  line-height: 150px;
+
+}
+/*fine elementi dell'header*/
+
+/*messaggi non letti*/
+.unread-messages {
+  color: white;
+  font-size: 25px;
+}
+
+.unread-number {
+  background-color: orange;
+  border-radius: 50%;
+  padding: 8px;
+}
+/*fine messaggi non letti*/
+
+/*lista dei messaggi ricevuti*/
+.mail-non-letta {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: lightgrey;
+  font-size: 18px;
+}
+
+.mail-letta {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: white;
+  font-size: 18px;
+}
+
+.titolo-mail {
+  font-weight: bold;
+}
+
+.testo-mail {
+  color: grey;
+}
+/*fine lista dei messaggi ricevuti*/
+
+
+/*FOOTER*/
+footer {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+#gmail-footer {
+  font-size: 25px;
+}
+
+#text-footer {
+  font-size: 18px;
+  font-style: italic;
+}

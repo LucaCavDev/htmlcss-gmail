@@ -1,0 +1,26 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../img/bglegno.jpg");
+}
+
+/* contenitore blocco di pagina */
+
+
+#container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* debug */
+header, section, footer {
+  height: 150px;
+  background-color: red;
+  margin: 20px 0;
+}
